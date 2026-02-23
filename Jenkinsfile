@@ -17,7 +17,7 @@ pipeline {
 
         stage('Terraform Init') {
             steps {
-                dir("${TF_WORKDIR}") {
+                dir("${TF_WORKDIR}") {  
                     sh "terraform init"
                 }
             }
