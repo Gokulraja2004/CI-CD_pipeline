@@ -5,7 +5,7 @@ pipeline {
         ENV="${env.BRANCH_NAME}"
         TF_WORKDIR="Environments/${env.BRANCH_NAME}"
     }
-}
+
 
 stages {
     stage('checkout') {
@@ -48,4 +48,5 @@ stages {
 
     }
     
+}
 }
