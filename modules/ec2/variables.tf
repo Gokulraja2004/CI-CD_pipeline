@@ -11,7 +11,7 @@ variable "subnet_id" {
     description = "subnet_id for ec2"
 }   
 variable "count" {
-    type = string
+    type = number
     description = "count id for ec2"
 }   
 variable "env"{
