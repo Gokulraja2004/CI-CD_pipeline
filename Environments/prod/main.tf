@@ -1,0 +1,6 @@
+module "s3" {
+    source = "../../modules/s3"
+    bucket1 = "cbhxjdhgxh1"
+    Name="production"
+    env="prod"
+}
