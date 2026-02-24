@@ -10,7 +10,7 @@ variable "subnet_id" {
     type = string
     description = "subnet_id for ec2"
 }   
-variable "count" {
+variable "instance_count" {
     type = number
     description = "count id for ec2"
 }   
