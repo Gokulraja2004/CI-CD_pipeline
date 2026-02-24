@@ -17,8 +17,7 @@ resource "aws_subnet" "main" {
   }
 }
 output "subnet_id" {
-    value = aws_subnet.main
+    value = aws_subnet.main.id
     description = "this is for subnet_id"
-    
-  
+      
 }
