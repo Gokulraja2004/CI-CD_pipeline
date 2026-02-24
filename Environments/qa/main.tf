@@ -1,4 +1,4 @@
-module "vpc" {
+/*module "vpc" {
   source = "../../modules/vpc"
   env ="qa"
   cidr_block = "10.0.0.0/16"
@@ -9,7 +9,7 @@ module "vpc" {
 }
 
 module "ec2" {
-    
+
     source = "../../modules/ec2"
     ami_id = "ami-051a31ab2f4d498f5"
     instance_type = "t3.micro"
@@ -18,3 +18,4 @@ module "ec2" {
     env = "qa"
   
 }
+*/
