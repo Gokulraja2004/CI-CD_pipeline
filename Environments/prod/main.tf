@@ -1,6 +1,6 @@
 module "s3" {
     source = "../../modules/s3"
-    bubucket1   = "cbhxjdhgxh1"
+    bucket1   = "cbhxjdhgxh1"
    bu_name ="production"
     env="prod"
 }
